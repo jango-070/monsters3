@@ -28,7 +28,7 @@ componentDidMount(){
   render() {
     return (
       <div className="App">
-      <CardList name='jango'> 
+      <CardList name='demango'> 
         {this.state.monsters.map(monster=> (
           <h1 key={monster.id}> {monster.name} </h1>
         ))}
